@@ -1,0 +1,10 @@
+{
+  "name": "op1-drumkit-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "print-drumkit-json": "./bin/index.js"
+  },
+  "dependencies": {}
+}
