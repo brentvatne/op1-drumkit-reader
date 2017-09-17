@@ -9,8 +9,7 @@ async function logJson() {
   try {
     let filepath = path.resolve(process.cwd(), filename);
     let result = await readDrumkitAsync(filepath);
-    let obj = JSON.parse(result);
-    console.log(obj);
+    console.log(result);
   } catch (e) {
     console.log(e);
   }
